@@ -1,0 +1,6 @@
+main{
+    background-image: url(wave.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px -30px;
+}

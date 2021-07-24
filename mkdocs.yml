@@ -1,0 +1,115 @@
+site_name: OUXT RobotX Challenge Hardware Documentation
+site_description: ''
+site_author: Sanada Tatsuya
+copyright: Copyright &copy; 2021 - OUXT Polaris
+site_url: https://ouxt-polaris.github.io/robotx-hardware-documentation/
+repo_url: https://github.com/OUXT-Polaris/robotx-hardware-documentation
+edit_uri: ''
+
+docs_dir: "markdown"
+site_dir: "docs"
+
+theme:
+  name: material
+  palette:
+    scheme: default
+  custom_dir: overrides
+  favicon: images/favicon.png
+  icon:
+    logo: fontawesome/solid/robot
+    repo: fontawesome/brands/github
+  language: en
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+    #- header.autohide
+
+markdown_extensions:
+  - mdx_math:
+      enable_dollar_delimiter: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - fontawesome_markdown
+  - admonition
+  - footnotes
+  - attr_list
+  - toc:
+      permalink: ⚓︎
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/OUXT_Polaris
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<ouxt.polaris.robotx@gmail.com>
+
+extra_css:
+  - stylesheets/extra.css
+  - https://use.fontawesome.com/releases/v5.15.0/css/all.css
+
+extra_javascript:
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+  - http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+plugins:
+  - search
+  - mermaid2:
+      arguments:
+        theme: base
+        themeVariables:
+          fontFamily: verdana
+          fontSize: 12px
+          darkMode: false
+          background: "#fff"
+          primaryColor: "#DEDFEF"
+          #secondaryColor: "#000"
+          #mainBkg: "#0000"  # affect node bkg
+          nodeBorder: "#000"
+          clusterBkg: "#fff"
+          clusterBorder: "#000"
+          #titleColor: "#808080"
+          edgeLabelBackground: "#eee"
+        logLevel: 5
+        securityLevel: loose
+        startOnLoad: true
+        arrowMarkerAbsolute: false
+        flowchart:
+          diagramPadding: 8
+          nodeSpacing: 50
+          rankSpacing: 50
+          useMaxWidth: false
+
+nav:
+  - Home: index.md
+  - Architecture:
+    - Summary: architecture/architecture_summary.md
+    - RobotX 2014:
+      - Top: architecture/2014/top.md
+    - RobotX 2016:
+      - Top: architecture/2016/top.md
+    - RobotX 2018:
+      - Top: architecture/2018/top.md
+    - RobotX 2022:
+      - Top: architecture/2022/top.md
+      - Safty: architecture/2022/safty.md
+      - Power Supply: architecture/2022/power-supply.md
+      - Controller: architecture/2022/controller.md
+      - Sensor: architecture/2022/sensor.md
+      - Actuator: architecture/2022/actuator.md
+      - Indicator: architecture/2022/indicator.md
+  - Mechanical Design:
+    - Top: mech_design/mdesign_top.md
+    - Azimuth Thruster: mech_design/azimuth-thruster.md
+    - Perception Array: mech_design/perception-array.md
+    - Perception Camera: mech_design/perception-camera.md
+  - Circuit Design:
+    - Top: circuit_design/cdesign_top.md
+    - Ideal Diode Module: circuit_design/ideal-diode-module.md
+    - Perception Array Interface Board: circuit_design/perception-array-interface-board.md
+    - Plug-in Supply Distributor: circuit_design/plug-in-supply-distributor.md
