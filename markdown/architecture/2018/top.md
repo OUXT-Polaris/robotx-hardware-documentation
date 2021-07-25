@@ -12,11 +12,11 @@ RobotX2018に向けて設計した船体アーキテクチャ
 
 
 <figure>
-  <img width="1000" src="The_connection_diagram.png">
+  <img width="1000" src="../The_connection_diagram.png">
   <figcaption style="caption-side:bottom;text-align:center;font-weight:bold;color:navy">The connection diagram.</figcaption>
 </figure>
 
 <figure>
-  <img width="1000" src="The_circuit_connection.png">
+  <img width="1000" src="../The_circuit_connection.png">
   <figcaption style="caption-side:bottom;text-align:center;font-weight:bold;color:navy">The circuit connection.</figcaption>
 </figure>
