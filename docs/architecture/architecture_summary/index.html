@@ -24,7 +24,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#contents">
+<a class="md-skip" href="#summary">
           Skip to content
         </a>
 </div>
@@ -116,13 +116,18 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../mech_design/mdesign_top/">
+<a class="md-tabs__link" href="../../mech_design/mdesign_summary/">
         Mechanical Design
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../circuit_design/cdesign_top/">
+<a class="md-tabs__link" href="../../circuit_design/cdesign_summary/">
         Circuit Design
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../reference/reference_summary/">
+        Reference
       </a>
 </li>
 </ul>
@@ -170,9 +175,40 @@
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Summary
+          <span class="md-nav__icon md-icon"></span>
+</label>
 <a class="md-nav__link md-nav__link--active" href="./">
         Summary
       </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#competition-robot">
+    Competition robot
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#robots-for-experimental-use">
+    Robots for experimental use
+  </a>
+<nav aria-label="Robots for experimental use" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mini-v">
+    Mini-V
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
 <input checked="" class="md-nav__toggle md-toggle" data-md-state="indeterminate" data-md-toggle="__nav_2_2" id="__nav_2_2" type="checkbox"/>
@@ -300,8 +336,8 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../mech_design/mdesign_top/">
-        Top
+<a class="md-nav__link" href="../../mech_design/mdesign_summary/">
+        Summary
       </a>
 </li>
 <li class="md-nav__item">
@@ -335,8 +371,8 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../circuit_design/cdesign_top/">
-        Top
+<a class="md-nav__link" href="../../circuit_design/cdesign_summary/">
+        Summary
       </a>
 </li>
 <li class="md-nav__item">
@@ -357,6 +393,26 @@
 </ul>
 </nav>
 </li>
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-state="indeterminate" data-md-toggle="__nav_5" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5">
+        Reference
+        <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Reference" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+          Reference
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../reference/reference_summary/">
+        Summary
+      </a>
+</li>
+</ul>
+</nav>
+</li>
 </ul>
 </nav>
 </div>
@@ -364,38 +420,78 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<p>Architecture セクション以下に記載されているコンテンツについてのサマリー</p>
-<h1 id="contents">Contents<a class="headerlink" href="#contents" title="Permanent link">⚓︎</a></h1>
+<h1 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">⚓︎</a></h1>
+<p>Architecture パートに記載されている情報のサマリーです．</p>
+<h2 id="competition-robot">Competition robot<a class="headerlink" href="#competition-robot" title="Permanent link">⚓︎</a></h2>
+<p>RobotX Challenge の競技用に開発したロボットの一覧と，これらに対応するドキュメントの執筆状況です．</p>
 <table>
 <thead>
 <tr>
-<th>Competition Name</th>
+<th>Competition</th>
+<th align="center">USV</th>
+<th align="center">UUV</th>
+<th align="center">UAV</th>
 <th>Writing Progress</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>RobotX 2014</td>
+<td><a href="../2014/top/">RobotX 2014</a></td>
+<td align="center"><i class="fas fa-check"></i></td>
+<td align="center"></td>
+<td align="center"></td>
 <td>We have no plans to write.</td>
 </tr>
 <tr>
-<td>RobotX 2016</td>
+<td><a href="../2016/top/">RobotX 2016</a></td>
+<td align="center"><i class="fas fa-check"></i></td>
+<td align="center"></td>
+<td align="center"></td>
 <td>We have no plans to write.</td>
 </tr>
 <tr>
-<td>RobotX 2018</td>
-<td>Some of the content of the TDP has been transcribed.</td>
+<td><a href="../2018/top/">RobotX 2018</a></td>
+<td align="center"><i class="fas fa-check"></i></td>
+<td align="center"></td>
+<td align="center"></td>
+<td>We will transcribe some of the TDP.</td>
 </tr>
 <tr>
 <td>RobotX 2020</td>
-<td>Since the competition has been cancelled, this article will not be created for RobotX2020.</td>
+<td align="center"><i class="fas fa-check"></i></td>
+<td align="center"><i class="fas fa-check"></i></td>
+<td align="center"></td>
+<td>Since the competition has been cancelled, we have no plans to write.</td>
 </tr>
 <tr>
-<td>RobotX 2022</td>
+<td><a href="../2022/top/">RobotX 2022</a></td>
+<td align="center"><i class="fas fa-check"></i></td>
+<td align="center"></td>
+<td align="center"><i class="fas fa-check"></i></td>
 <td>Information on the design stage is posted here.</td>
 </tr>
 </tbody>
 </table>
+<h2 id="robots-for-experimental-use">Robots for experimental use<a class="headerlink" href="#robots-for-experimental-use" title="Permanent link">⚓︎</a></h2>
+<p>RobotXの競技用としてではなく実験用に開発したロボットの一覧と，これらに対応するドキュメントの執筆状況です．</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th align="center">Type</th>
+<th>Writing Progress</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mini-V</td>
+<td align="center">USV</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="mini-v">Mini-V<a class="headerlink" href="#mini-v" title="Permanent link">⚓︎</a></h3>
+<p>ソフトウェア開発の効率を向上させるために作成したWAM-Vよりも非常に小型の双胴船タイプのUSV．日本国内の関連法規に制限されることなく，河川や湖で実験を行うことができます．</p>
 </article>
 </div>
 </div>

@@ -1,3 +1,5 @@
+# RobotX 2022 hardware architecture
+
 !!! note
     開発中のため，構想レベルの記述を含んでいます．
 
