@@ -119,8 +119,8 @@ nav:
     - Perception Camera: mech_design/perception-camera.md
   - Circuit Design:
     - Summary: circuit_design/cdesign_summary.md
-    - Ideal Diode Module: circuit_design/ideal-diode-module.md
     - Perception Array Interface Board: circuit_design/perception-array-interface-board.md
     - Plug-in Supply Distributor: circuit_design/plug-in-supply-distributor.md
+    - Ideal Diode Module: circuit_design/ideal-diode-module.md
   - Reference:
     - Summary: reference/reference_summary.md
