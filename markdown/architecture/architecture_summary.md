@@ -25,4 +25,9 @@ RobotXの競技用としてではなく実験用に開発したロボットの�
 
 ### Mini-V
 
+<figure style="display:table;float:right;margin:0px 0px 0px 20px">
+  <img style="display:block" width="400" src="miniv_20210811.jpg">
+  <figcaption style="display:table-caption;caption-side:bottom;text-align:center;font-weight:bold;color:navy">Appearance of Mini-V</figcaption>
+</figure>
+
 ソフトウェア開発の効率を向上させるために作成したWAM-Vよりも非常に小型の双胴船タイプのUSV．日本国内の関連法規に制限されることなく，河川や湖で実験を行うことができます．

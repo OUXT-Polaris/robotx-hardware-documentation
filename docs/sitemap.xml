@@ -2,107 +2,107 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/architecture/architecture_summary/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/architecture/2014/top/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/architecture/2016/top/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/architecture/2018/top/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/architecture/2022/actuator/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/architecture/2022/controller/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/architecture/2022/indicator/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/architecture/2022/power-supply/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/architecture/2022/safty/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/architecture/2022/sensor/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/architecture/2022/top/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/circuit_design/cdesign_summary/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/circuit_design/ideal-diode-module/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/circuit_design/perception-array-interface-board/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/circuit_design/plug-in-supply-distributor/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/mech_design/azimuth-thruster/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/mech_design/mdesign_summary/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/mech_design/perception-array/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/mech_design/perception-camera/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ouxt-polaris.github.io/robotx-hardware-documentation/reference/reference_summary/</loc>
-         <lastmod>2021-08-11</lastmod>
+         <lastmod>2021-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
