@@ -2,9 +2,16 @@
 
 | Name | Repositories |
 | --- | --- |
-| ideal-diode-module | [<i class="fab fa-github"></i> Github Repo](https://github.com/OUXT-Polaris/ideal-diode-module) |
+| ideal-diode-module | [<i class="fab fa-github"></i> Github Repo](https://github.com/OUXT-Polaris/ideal-diode-module){:target="_blank"} |
 
 ## Rendering image
 
+## Features
 
-## Schematics
+## Specifications
+
+### Maximum Ratings
+
+### Schematics
+
+### BOM

@@ -2,9 +2,7 @@
 
 | Name | Repositories |
 | --- | --- |
-| plug-in-supply-distributor | [<i class="fab fa-github"></i> Github Repo](https://github.com/OUXT-Polaris/plug-in-supply-distributor) |
-
-
+| plug-in-supply-distributor | [<i class="fab fa-github"></i> Github Repo](https://github.com/OUXT-Polaris/plug-in-supply-distributor){:target="_blank"} |
 
 ## Rendering image
 
@@ -19,10 +17,16 @@
   </figure>
 </div>
 
+## Features
 
-## Schematics
+## Specifications
+
+### Maximum Ratings
+### Schematics
 
 <figure>
   <img width="1000" src="https://github.com/OUXT-Polaris/plug-in-supply-distributor/blob/main/images/schematics.png?raw=true" />
   <figcaption>Schematics</figcaption>
 </figure>
+
+### BOM

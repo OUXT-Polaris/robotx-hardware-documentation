@@ -4,7 +4,7 @@ Architecture パートに記載されている情報のサマリーです．
 
 ## Competition robot
 
-RobotX Challenge の競技用に開発したロボットの一覧と，これらに対応するドキュメントの執筆状況です．
+This is the list of robots developed for the RobotX Challenge competition, and the status of their documentation.
 
 | Competition | USV | UUV | UAV | Writing Progress |
 | --- | :-: | :-: | :-: | --- |
@@ -17,7 +17,7 @@ RobotX Challenge の競技用に開発したロボットの一覧と，これら
 
 ## Robots for experimental use
 
-RobotXの競技用としてではなく実験用に開発したロボットの一覧と，これらに対応するドキュメントの執筆状況です．
+This is a list of robots developed not for RobotX competitions, but for experimental purposes, and the status of their documentation.
 
 | Name | Type | Writing Progress |
 | --- | :-: | --- |
@@ -31,3 +31,5 @@ RobotXの競技用としてではなく実験用に開発したロボットの�
 </figure>
 
 ソフトウェア開発の効率を向上させるために作成したWAM-Vよりも非常に小型の双胴船タイプのUSV．日本国内の関連法規に制限されることなく，河川や湖で実験を行うことができます．
+
+This is a catamaran-type USV, much smaller than the WAM-V, designed to improve the efficiency of software development, and can be used for experiments in rivers and lakes without being restricted by the relevant laws in Japan.

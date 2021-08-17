@@ -2,7 +2,7 @@
 
 | Name | Repositories |
 | --- | --- |
-| perception-array-interface-board | [<i class="fab fa-github"></i> Github Repo](https://github.com/OUXT-Polaris/perception-array-interface-board) |
+| perception-array-interface-board | [<i class="fab fa-github"></i> Github Repo](https://github.com/OUXT-Polaris/perception-array-interface-board){:target="_blank"} |
 
 ## Rendering image
 
