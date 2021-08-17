@@ -121,6 +121,7 @@ nav:
     - Summary: circuit_design/cdesign_summary.md
     - Perception Array Interface Board: circuit_design/perception-array-interface-board.md
     - Plug-in Supply Distributor: circuit_design/plug-in-supply-distributor.md
+    - E-Stop Driver: circuit_design/estop-driver.md
     - Ideal Diode Module: circuit_design/ideal-diode-module.md
   - Reference:
     - Summary: reference/reference_summary.md
