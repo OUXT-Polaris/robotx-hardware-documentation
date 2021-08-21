@@ -114,9 +114,11 @@ nav:
       - Indicator: architecture/2022/indicator.md
   - Mechanical Design:
     - Summary: mech_design/mdesign_summary.md
+    - Outboard Motor Mounter Type2014: mech_design/outboard-motor-mounter-2014.md
+    - Moter Buoyancy Pod Type2018: mech_design/moter-buoyancy-pod-2018.md
     - Azimuth Thruster: mech_design/azimuth-thruster.md
-    - Perception Array: mech_design/perception-array.md
     - Perception Camera: mech_design/perception-camera.md
+    - Perception Array: mech_design/perception-array.md
   - Circuit Design:
     - Summary: circuit_design/cdesign_summary.md
     - Perception Array Interface Board: circuit_design/perception-array-interface-board.md
