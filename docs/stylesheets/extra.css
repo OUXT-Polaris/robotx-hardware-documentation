@@ -27,3 +27,7 @@ main{
     font-weight: bold;
     color: rgba(0, 0, 0, 0.8);
 }
+
+.md-typeset table:not([class]) td {
+    vertical-align: middle;
+}

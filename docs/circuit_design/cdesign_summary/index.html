@@ -24,7 +24,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#summary">
+<a class="md-skip" href="#circuit-design">
           Skip to content
         </a>
 </div>
@@ -135,7 +135,7 @@
 </nav>
 <main class="md-main" data-md-component="main">
 <div class="md-main__inner md-grid">
-<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden="">
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" data-md-level="0">
@@ -421,37 +421,52 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">⚓︎</a></h1>
-<p>Circuit Design パートに記載されている情報のサマリーです．</p>
+<h1 id="circuit-design">Circuit Design<a class="headerlink" href="#circuit-design" title="Permanent link">⚓︎</a></h1>
+<p>This part contains design documents, schematics, and manufacturing data for electrical systems that OUXT has developed to date.</p>
 <h2 id="list">List<a class="headerlink" href="#list" title="Permanent link">⚓︎</a></h2>
 <table>
 <thead>
 <tr>
+<th align="center">Thumbnail</th>
 <th>Name</th>
 <th align="center">Status</th>
+<th align="center">~ 2018</th>
+<th align="center">2022</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td align="center"><img src="https://github.com/OUXT-Polaris/perception-array-interface-board/blob/main/images/pcb_image_topview.png?raw=true" width="100"/></td>
 <td><a href="../perception-array-interface-board/">Perception Array Interface Board</a></td>
-<td align="center"><i class="fas fa-tools"></i> prototyping</td>
+<td align="center"><i class="fas fa-tools"></i><br/>prototyping</td>
+<td align="center"></td>
+<td align="center"><i class="fas fa-check"></i></td>
 <td>Dedicated interface board built into the <a href="../../mech_design/perception-array/">Perception Array</a></td>
 </tr>
 <tr>
+<td align="center"><img src="https://github.com/OUXT-Polaris/plug-in-supply-distributor/blob/main/images/pcb_image_topview.png?raw=true" width="100"/></td>
 <td><a href="../plug-in-supply-distributor/">Plug-in Supply Distributor</a></td>
-<td align="center"><i class="fas fa-tools"></i> prototyping</td>
-<td></td>
+<td align="center"><i class="fas fa-tools"></i><br/>prototyping</td>
+<td align="center"></td>
+<td align="center"><i class="fas fa-check"></i></td>
+<td>Plug-in board to provide interlocking capability for foolproof when distributing control power</td>
 </tr>
 <tr>
+<td align="center"></td>
 <td><a href="../estop-driver/">E-Stop Driver</a></td>
-<td align="center"><i class="fas fa-tools"></i> prototyping</td>
-<td></td>
+<td align="center"><i class="far fa-edit"></i><br/>in design</td>
+<td align="center"></td>
+<td align="center"><i class="fas fa-check"></i></td>
+<td>Board to provide emergency stop function for robot propulsion power supply</td>
 </tr>
 <tr>
+<td align="center"></td>
 <td><a href="../ideal-diode-module/">Ideal Diode Module</a></td>
-<td align="center"><i class="far fa-edit"></i> in design</td>
-<td></td>
+<td align="center"><i class="far fa-edit"></i><br/>in design</td>
+<td align="center"></td>
+<td align="center"><i class="fas fa-check"></i></td>
+<td>Ideal diode module to be suitable for parallel connection of batteries</td>
 </tr>
 </tbody>
 </table>

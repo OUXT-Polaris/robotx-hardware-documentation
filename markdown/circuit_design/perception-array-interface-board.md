@@ -1,21 +1,30 @@
-## Repositories
+## Design files
 
-| Name | Repositories |
+We use KiCAD for PCB design. The CAD data is available in the repository shown in the table below.
+
+| Repository name | Link |
 | --- | --- |
-| perception-array-interface-board | [<i class="fab fa-github"></i> Github Repo](https://github.com/OUXT-Polaris/perception-array-interface-board){:target="_blank"} |
+| perception-array-interface-board | [<i class="fab fa-github"></i> Github](https://github.com/OUXT-Polaris/perception-array-interface-board){:target="_blank"} |
 
-## Rendering image
+## PCB Rendering images
 
 <div style="text-align:center">
   <figure style="display:inline-block;margin-right:25px">
     <img width="400" src="https://github.com/OUXT-Polaris/perception-array-interface-board/blob/main/images/pcb_image_topview.png?raw=true" />
-    <figcaption>Top view</figcaption>
+    <figcaption style="caption-side:bottom;text-align:center;font-weight:bold;color:navy">Top view</figcaption>
   </figure>
   <figure style="display:inline-block;margin-left:25px">
     <img width="400" src="https://github.com/OUXT-Polaris/perception-array-interface-board/blob/main/images/pcb_image_bottomview.png?raw=true" />
-    <figcaption>Bottom view</figcaption>
+    <figcaption style="caption-side:bottom;text-align:center;font-weight:bold;color:navy">Bottom view</figcaption>
   </figure>
 </div>
+
+## Photos
+
+<figure>
+    <img width="400" src="PXL_20210809_143638858_2.jpg" />
+    <figcaption style="caption-side:bottom;text-align:center;font-weight:bold;color:navy">Appearance of first prototype</figcaption>
+</figure>
 
 ## Features
 
@@ -36,7 +45,7 @@
 
 <figure>
   <img width="1000" src="https://github.com/OUXT-Polaris/perception-array-interface-board/blob/main/images/schematics.png?raw=true" />
-  <figcaption>Schematics</figcaption>
+  <figcaption style="caption-side:bottom;text-align:center;font-weight:bold;color:navy">Schematics 1/1</figcaption>
 </figure>
 
 ### BOM
