@@ -405,6 +405,45 @@
   </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="#connectors-pin-assign">
+    Connectors Pin Assign
+  </a>
+<nav aria-label="Connectors Pin Assign" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#j1">
+    J1
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#j2">
+    J2
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#j3">
+    J3
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#j4-j5">
+    J4, J5
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#j6">
+    J6
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#j8">
+    J8
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#bom">
     BOM
   </a>
@@ -514,12 +553,12 @@
 </thead>
 <tbody>
 <tr>
-<td>Input voltage</td>
 <td></td>
-<td>16</td>
-<td>24</td>
-<td>30</td>
-<td>Vdc</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -528,6 +567,169 @@
 <img src="https://github.com/OUXT-Polaris/perception-array-interface-board/blob/main/images/schematics.png?raw=true" width="1000"/>
 <figcaption style="caption-side:bottom;text-align:center;font-weight:bold;color:navy">Schematics 1/1</figcaption>
 </figure>
+<h3 id="connectors-pin-assign">Connectors Pin Assign<a class="headerlink" href="#connectors-pin-assign" title="Permanent link">⚓︎</a></h3>
+<h4 id="j1">J1<a class="headerlink" href="#j1" title="Permanent link">⚓︎</a></h4>
+<table>
+<thead>
+<tr>
+<th>Pin #</th>
+<th>Pin Name</th>
+<th>Type/Dir</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>V+</td>
+<td>Power</td>
+<td>Main DC input (Typ. = 24 Vdc, Min. = 16 Vdc, Max. = 30 Vdc)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="j2">J2<a class="headerlink" href="#j2" title="Permanent link">⚓︎</a></h4>
+<table>
+<thead>
+<tr>
+<th>Pin #</th>
+<th>Pin Name</th>
+<th>Type/Dir</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>IL</td>
+<td>Output</td>
+<td>This pin is used to indicate to the power supply circuit whether the power receiving connector is connected or not.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="j3">J3<a class="headerlink" href="#j3" title="Permanent link">⚓︎</a></h4>
+<table>
+<thead>
+<tr>
+<th>Pin #</th>
+<th>Pin Name</th>
+<th>Type/Dir</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>GND</td>
+<td>Ground</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="j4-j5">J4, J5<a class="headerlink" href="#j4-j5" title="Permanent link">⚓︎</a></h4>
+<table>
+<thead>
+<tr>
+<th>Pin #</th>
+<th>Pin Name</th>
+<th>Type/Dir</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="j6">J6<a class="headerlink" href="#j6" title="Permanent link">⚓︎</a></h4>
+<table>
+<thead>
+<tr>
+<th>Pin #</th>
+<th>Pin Name</th>
+<th>Type/Dir</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td></td>
+<td>Power</td>
+<td>5 Vdc supply for switching hub</td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td>Ground</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="j8">J8<a class="headerlink" href="#j8" title="Permanent link">⚓︎</a></h4>
+<table>
+<thead>
+<tr>
+<th>Pin #</th>
+<th>Pin Name</th>
+<th>Type/Dir</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>GND</td>
+<td>Ground</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td>Power</td>
+<td>12 Vdc supply</td>
+</tr>
+<tr>
+<td>3</td>
+<td>-</td>
+<td>Unused</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>-</td>
+<td>Unused</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h3 id="bom">BOM<a class="headerlink" href="#bom" title="Permanent link">⚓︎</a></h3>
 <table>
 <thead>

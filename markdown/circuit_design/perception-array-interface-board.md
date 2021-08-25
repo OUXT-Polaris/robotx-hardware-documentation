@@ -39,7 +39,7 @@ We use KiCAD for PCB design. The CAD data is available in the repository shown i
 
 | Parameter | Conditions | Min. | Typ. | Max. | Unit |
 | --- | --- | --- | --- | --- | --- |
-| Input voltage |  | 16 | 24 | 30 | Vdc |
+|  |  |  |  |  |  |
 
 ### Schematics
 
@@ -47,6 +47,52 @@ We use KiCAD for PCB design. The CAD data is available in the repository shown i
   <img width="1000" src="https://github.com/OUXT-Polaris/perception-array-interface-board/blob/main/images/schematics.png?raw=true" />
   <figcaption style="caption-side:bottom;text-align:center;font-weight:bold;color:navy">Schematics 1/1</figcaption>
 </figure>
+
+### Connectors Pin Assign
+
+#### J1
+
+| Pin # | Pin Name | Type/Dir | Description |
+| --- | --- | --- | --- |
+| 1 | V+ | Power | Main DC input (Typ. = 24 Vdc, Min. = 16 Vdc, Max. = 30 Vdc) |
+
+#### J2
+
+| Pin # | Pin Name | Type/Dir | Description |
+| --- | --- | --- | --- |
+| 1 | IL | Output | This pin is used to indicate to the power supply circuit whether the power receiving connector is connected or not. |
+
+#### J3
+
+| Pin # | Pin Name | Type/Dir | Description |
+| --- | --- | --- | --- |
+| 1 | GND | Ground |  |
+
+#### J4, J5
+
+| Pin # | Pin Name | Type/Dir | Description |
+| --- | --- | --- | --- |
+| 1 |  |  |  |
+
+#### J6
+
+| Pin # | Pin Name | Type/Dir | Description |
+| --- | --- | --- | --- |
+| 1 |  | Power | 5 Vdc supply for switching hub |
+| 2 |  | Ground |  |
+
+#### J8
+
+| Pin # | Pin Name | Type/Dir | Description |
+| --- | --- | --- | --- |
+| 1 | GND | Ground |  |
+| 2 |  | Power | 12 Vdc supply |
+| 3 | - | Unused |  |
+| 4 | - | Unused |  |
+| 5 |  |  |  |
+| 6 |  |  |  |
+| 7 |  |  |  |
+| 8 |  |  |  |
 
 ### BOM
 

@@ -2,17 +2,17 @@
 site_name: OUXT RobotX Challenge Hardware Documentation
 site_url: https://ouxt-polaris.github.io/robotx-hardware-documentation/
 site_author: Sanada Tatsuya
-site_description: ''
+site_description: ""
 copyright: Copyright &copy; 2021 - OUXT Polaris
 
 # Repository
 repo_name: OUXT-Polaris/robotx-hardware-documentation
 repo_url: https://github.com/OUXT-Polaris/robotx-hardware-documentation
-edit_uri: ''
+edit_uri: ""
 
 # Configuration
-docs_dir: "markdown"
-site_dir: "docs"
+docs_dir: markdown
+site_dir: docs
 
 theme:
   name: material
