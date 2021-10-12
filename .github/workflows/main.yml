@@ -30,7 +30,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2-beta
         with:
-          ref: $GITHUB_HEAD_REF
+          ref: ${{ github.head_ref }}
       - name: Setup Python and install MkDocs
         uses: ./.github/actions/setup_mkdocs
       - name: Build
