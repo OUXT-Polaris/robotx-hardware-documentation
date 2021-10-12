@@ -1,0 +1,27 @@
+name: document
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy_mkdocs_documentation_site:
+    name: Deploy MkDocs documentation site
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2-beta
+      - name: Set up Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.9.6
+      - name: Install MkDocs
+        run: |
+          pip3 install mkdocs
+          pip3 install mkdocs-material
+          pip3 install fontawesome_markdown mdx_unimoji mkdocs-mermaid2-plugin pymdown-extensions plantuml-markdown python-markdown-math
+      - name: Build
+        run: mkdocs build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
