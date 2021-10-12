@@ -17,7 +17,7 @@ jobs:
         run: |
           pip3 install mkdocs
           pip3 install mkdocs-material
-          pip3 install fontawesome_markdown mdx_unimoji mkdocs-mermaid2-plugin pymdown-extensions plantuml-markdown python-markdown-math
+          pip3 install fontawesome_markdown mkdocs-mermaid2-plugin pymdown-extensions plantuml-markdown python-markdown-math
       - name: Build
         run: mkdocs build
       - name: Deploy
