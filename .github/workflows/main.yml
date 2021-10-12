@@ -3,21 +3,18 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    types: [opened, synchronize, reopened]
 jobs:
-  deploy_mkdocs_documentation_site:
-    name: Deploy MkDocs documentation site
+  deploy_site:
+    name: Deploy site
+    if: ${{ github.event_name == 'push'}}
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2-beta
-      - name: Set up Python
-        uses: actions/setup-python@v1
-        with:
-          python-version: 3.9.7
-      - name: Install MkDocs
-        run: |
-          pip3 install mkdocs
-          pip3 install mkdocs-material
-          pip3 install fontawesome_markdown mkdocs-mermaid2-plugin pymdown-extensions plantuml-markdown python-markdown-math
+      - name: Checkout
+        uses: actions/checkout@v2-beta
+      - name: Setup Python and install MkDocs
+        uses: ./.github/actions/setup_mkdocs
       - name: Build
         run: mkdocs build
       - name: Deploy
@@ -25,3 +22,20 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
+  try_to_build_pull_request:
+    name: Try to build pull request
+    if: ${{ github.event_name == 'pull_request'}}
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2-beta
+        with:
+          ref: $GITHUB_HEAD_REF
+      - name: Setup Python and install MkDocs
+        uses: ./.github/actions/setup_mkdocs
+      - name: Build
+        run: mkdocs build
+      - uses: actions/upload-artifact@v2
+        with:
+          name: site
+          path: ./site
